@@ -41,6 +41,17 @@ Jadi ya, ini kayak "bahasa wajib" kalau mau serius di back-end.
 3. **Praktik langsung**  
    Jalankan kode yang ada, terus coba buat eksperimen atau modifikasi sesuai kebutuhan lo. Jangan takut buat eksplor!  
 
+4. **Mulai dari yang Dasar**  
+   Gue rekomendasiin mulai dari folder `01_basics/` buat dapetin fondasi kuat dulu. Berikut urutannya:  
+
+   - `01_basics/`: Belajar modal penting tentang Internet, HTTP, DNS, dan dasar lainnya.
+   - `02_python_fundamentals/`: Mulai memahami syntax dan konsep dasar Python.
+   - `03_web_basics/`: Kenalan sama konsep back-end lewat Flask atau Django.
+   - `04_database/`: Belajar cara pakai database SQL/NoSQL.
+   - `05_auth_and_api/`: Cara bikin sistem login & API RESTful yang aman.
+
+   Urutan ini gue bikin biar lo belajar step-by-step sesuai roadmap dari [roadmap.sh](https://roadmap.sh/).
+
 ---
 
 ## Topik yang Gue Pelajarin 📚
@@ -55,6 +66,40 @@ Di perjalanan ini, gue udah (dan akan terus) belajar topik-topik berikut:
 - **Deployment:** Cara deploy ke server pakai Docker, Heroku, atau AWS.  
 
 PS: List ini bakal terus gue update kalau ada ilmu baru yang gue pelajarin.  
+
+---
+
+## Struktur Folder Modul Belajar 🌐
+
+Berikut adalah struktur folder belajar yang gue siapkan:
+```plaintext
+modul_belajar/
+├── 01_basics/
+│   ├── internet_and_dns.md
+│   ├── http_basics.md
+│   └── networking_basics.md
+├── 02_python_fundamentals/
+│   ├── syntax_and_variables.md
+│   ├── data_structures.md
+│   ├── oop.md
+│   └── best_practices.md
+├── 03_web_basics/
+│   ├── flask_tutorial.md
+│   ├── django_tutorial.md
+│   └── api_basics.md
+├── 04_database/
+│   ├── sql_basics.md
+│   ├── nosql_basics.md
+│   └── orm_with_sqlalchemy.md
+├── 05_auth_and_api/
+│   ├── jwt_authentication.md
+│   ├── oauth_basics.md
+│   └── building_rest_api.md
+└── 06_deployment/
+    ├── docker_basics.md
+    ├── heroku_tutorial.md
+    └── aws_deployment.md
+```
 
 ---
 
